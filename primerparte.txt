@@ -1,0 +1,14 @@
+Les recuerdo que el párrafo de arriba es todo el proyecto y la primera parte del proyecto es esta:
+
+Deberán de realizar el diagrama de flujo para la solución del problema.
+Deberán de realizar una propuesta del diagrama de clases
+Deberán de entregar su propuesta de solución en un documento de word :
+Caratula
+Índice
+Desarrollo
+Propuesta de que debe de hacer el programa
+Con que tecnología lo van a programar
+Costo del proyecto
+Diagrama de flujo
+Diagrama de Clases
+Equipo de Máximo 5, y si puede ser el mismo

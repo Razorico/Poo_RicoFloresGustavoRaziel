@@ -27,10 +27,11 @@ public class Principal{
         //menu
         //instancia
         Principal mainp = new Principal();
+        Biblioteca biblioteca = new Biblioteca();
 
         //ciclo para que el menu se repita y sea visible para el usuario
         do{
-            mainp.MenuP();
+            mainp.MenuP(biblioteca);
             text = JOptionPane.showInputDialog("En caso de que desee regresar al menu principal digite 1");
             opciones = Integer.parseInt(text);
 
@@ -40,9 +41,10 @@ public class Principal{
 
     }
 
-    public void MenuP(){
+    public void MenuP(Biblioteca biblioteca){
         String text;
         int opciones =0;
+        
         //los metodos void (vacios), son porque no reciben ningun parametro
 
         //excepciones
@@ -65,7 +67,6 @@ public class Principal{
 
         }
 
-
         switch (opciones) {
             case 1:
                 //metodo
@@ -76,7 +77,7 @@ public class Principal{
                 break;
             
             case 3:
-                //metodo
+                biblioteca.Libros();
                 break;
         
             default:
